@@ -47,7 +47,7 @@ export const NavBar = () => {
       <Link to="#ServiceCards" onClick={() => scrollToSection("ServiceCards")}>
         Explore Shows
       </Link>
-      <Link to="#faq" onClick={() => scrollToSection("faq")}>
+      <Link to="#LatestTrend" onClick={() => scrollToSection("LatestTrend")}>
         Current Trending
       </Link>
       <Link to="#faq" onClick={() => scrollToSection("faq")}>

@@ -5,7 +5,7 @@ export const MovieCards = () => {
   const [movies, setMovies] = useState([]);
 
   const fetchMoviesInfo = () => {
-    fetch(`http://localhost:5000/movies`)
+    fetch(`https://cine-reel-server.vercel.app/movies`)
       .then((res) => res.json())
       .then((data) => {
         setMovies(data);

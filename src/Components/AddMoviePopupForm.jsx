@@ -34,7 +34,7 @@ const AddMoviePopupForm = () => {
 
     // console.log(initialData);
 
-    fetch(`http://localhost:5000/add-movie`, {
+    fetch(`https://cine-reel-server.vercel.app/add-movie`, {
       method: "POST",
       headers: {
         "content-type": "application/json",

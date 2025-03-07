@@ -23,7 +23,7 @@ export const HomePageLayout = () => {
         <section id="ServiceCards" className="w-10/12 mx-auto ">
           <MovieCards></MovieCards>
         </section>
-        <section className="w-10/12 mx-auto ">
+        <section id="LatestTrend" className="w-10/12 mx-auto ">
           <LatestTrends></LatestTrends>
         </section>
       </main>

@@ -6,7 +6,7 @@ export const MovieCard = ({ movie }) => {
     <div className="flex flex-col gap-4 p-4 text-black bg-gray-100 rounded-lg shadow-lg w-96 min-h-96">
       <div className="w-full h-40 bg-gray-400 rounded-lg">
         <img
-          className="h-auto rounded-lg w-ful"
+          className="h-40 rounded-lg w-ful"
           src={movie?.moviePoster}
           alt=""
         />

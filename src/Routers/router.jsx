@@ -53,7 +53,7 @@ const router = createBrowserRouter([
     path: "/moviedetails/:id",
     element: <MovieDetailsLayout></MovieDetailsLayout>,
     loader: ({ params }) =>
-      fetch(`http://localhost:5000/moviedetails/${params.id}`),
+      fetch(`https://cine-reel-server.vercel.app/moviedetails/${params.id}`),
   },
 
   // {
